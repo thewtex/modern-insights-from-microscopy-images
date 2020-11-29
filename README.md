@@ -1,14 +1,24 @@
-# nbdev template
+# Project name here
+> Summary description here.
 
-Use this template to more easily create your nbdev project.
 
-## Installation
+This file will become your README and also the index of your documentation.
 
-[Install miniconda](https://docs.conda.io/projects/conda/en/latest/user-guide/install/),
-then:
+## Install
 
+`pip install your_project_name`
+
+## How to use
+
+Fill me in please! Don't forget code examples:
+
+```python
+1+1
 ```
-conda env create --file environment.yml --name mi2
-conda activate mi2
-```
+
+
+
+
+    2
+
 
