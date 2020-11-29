@@ -10,8 +10,8 @@ entries:
       title: Overview
       url: /
     - output: web,pdf
-      title: module name here
-      url: core.html
+      title: Introduction to Modern, Web-based Methodologies
+      url: Introduction.html
     output: web
     title: mi2
   output: web

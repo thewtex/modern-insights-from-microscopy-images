@@ -20,6 +20,7 @@ then:
 ```
 conda env create --file environment.yml --name mi2
 conda activate mi2
+python -m jupyter notebook
 ```
 
 ## Sections
