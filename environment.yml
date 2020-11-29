@@ -1,0 +1,34 @@
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - pip
+  - dask
+  - nodejs
+  - graphviz
+  - itkwidgets>=0.32.0
+  - numpy
+  - itk>=5.1.1
+  - scikit-image
+  - dask[complete]
+  - dask-image
+  - dask-labextension
+  - ipykernel
+  - distributed
+  - pandas
+  - jupyterlab
+  - scipy
+  - requests
+  - toolz
+  - zarr
+  - xarray
+  - fsspec>=0.8.4
+  - ipympl
+  - plotly
+  - ipywidgets>=7.5.1
+  - coiled
+  - pyimagej
+  - openjdk=8
+  - pip:
+    - nbdev
+    - imjoy-jupyter-extension
