@@ -12,7 +12,6 @@ dependencies:
   - scikit-image
   - dask[complete]
   - dask-image
-  - dask-labextension
   - ipykernel
   - distributed
   - pandas
