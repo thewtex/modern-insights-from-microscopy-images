@@ -2,7 +2,7 @@ name: CI
 on: [push, pull_request]
 jobs:
   build-test:
-    name: Ex1 (${{ matrix.python-version }}, ${{ matrix.os }})
+    name: Test (${{ matrix.python-version }}, ${{ matrix.os }})
     runs-on: ${{ matrix.os }}
     strategy:
       fail-fast: false
