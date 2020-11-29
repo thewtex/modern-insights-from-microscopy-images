@@ -29,6 +29,9 @@ dependencies:
   - coiled
   - pyimagej
   - openjdk=8
+  - z5py
   - pip:
     - nbdev
     - imjoy-jupyter-extension
+    - ome-zarr
+    - pyn5
