@@ -33,4 +33,3 @@ dependencies:
     - nbdev
     - imjoy-jupyter-extension
     - ome-zarr
-    - pyn5
