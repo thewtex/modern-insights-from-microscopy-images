@@ -16,6 +16,7 @@ dependencies:
   - distributed
   - pandas
   - jupyterlab
+  - ipycanvas
   - scipy
   - requests
   - toolz
