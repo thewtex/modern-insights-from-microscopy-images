@@ -31,4 +31,3 @@ dependencies:
     - nbdev
     - imjoy-jupyter-extension
     - ome-zarr
-    - ipycanvas
