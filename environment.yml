@@ -15,7 +15,6 @@ dependencies:
   - ipykernel
   - distributed
   - pandas
-  - ipycanvas
   - scipy
   - requests
   - toolz
@@ -32,3 +31,4 @@ dependencies:
     - nbdev
     - imjoy-jupyter-extension
     - ome-zarr
+    - ipycanvas
