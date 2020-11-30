@@ -15,7 +15,6 @@ dependencies:
   - ipykernel
   - distributed
   - pandas
-  - jupyterlab
   - ipycanvas
   - scipy
   - requests
@@ -24,7 +23,6 @@ dependencies:
   - xarray
   - fsspec>=0.8.4
   - ipympl
-  - plotly
   - ipywidgets>=7.5.1
   - coiled
   - pyimagej
