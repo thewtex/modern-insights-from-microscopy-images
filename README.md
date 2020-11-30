@@ -2,6 +2,8 @@
 > An Introduction to Web-based Methodologies
 
 
+[![I2K](https://www.janelia.org/sites/default/files/styles/adaptive/public/You%20%2B%20Janelia/Conferences/social%20card%20I2K.jpg)](https://www.janelia.org/you-janelia/conferences/from-images-to-knowledge-with-imagej-friends)
+
 Technological evolution poises modern, web-based methods as the future of bioimage
 analysis. Moreover, web-based methods are better suited to solve challenges such as
 extremely large images and reproducibility. In this tutorial, we will introduce the concepts,
@@ -30,5 +32,4 @@ python -m jupyter notebook
 3. [Web-based Image Visualization](./03_Visualization.ipynb)
 4. [Image Data Storage for the Web](./04_Data_Storage.ipynb)
 5. [Distributed Image Processing in the Cloud](./05_Distributed_Processing.ipynb)
-6. [Asynchronous Programming](./06_Asynchronous_Programming.ipynb)
-7. [Open, Re-usable Deep Learning Components on the Web](./07_Reusable_Components.ipnb)
+6. [Open, Re-usable Deep Learning Components on the Web](./06_Reusable_Components.ipynb)
