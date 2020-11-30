@@ -12,6 +12,9 @@ entries:
     - output: web,pdf
       title: Introduction to Modern, Web-based Methodologies
       url: Introduction.html
+    - output: web,pdf
+      title: Title
+      url: Distributed_Processing.html
     output: web
     title: mi2
   output: web
