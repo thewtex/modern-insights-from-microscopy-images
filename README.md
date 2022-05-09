@@ -38,6 +38,5 @@ python -m jupyter notebook
 
 
 3. [Introduction to WebAssembly](./03_WebAssembly_Introduction.ipynb)
-
-3. [Image Data Storage for the Web](./03_Data_Storage.ipynb)
-4. [Distributed Image Processing in the Cloud](./04_Distributed_Processing.ipynb)
+4. [Image Data Storage for the Web](./04_Data_Storage.ipynb)
+5. [Distributed Image Processing in the Cloud](./05_Distributed_Processing.ipynb)
