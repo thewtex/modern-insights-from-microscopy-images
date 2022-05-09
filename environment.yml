@@ -2,14 +2,12 @@ channels:
   - conda-forge
   - defaults
 dependencies:
-  - python==3.8
+  - python==3.9
   - pip
   - dask
   - nodejs
   - graphviz
-  - itkwidgets>=0.32.0
   - numpy
-  - itk>=5.1.1
   - scikit-image
   - dask[complete]
   - dask-image
@@ -25,7 +23,10 @@ dependencies:
   - ipympl
   - ipywidgets>=7.5.1
   - coiled
+  - wasmer
   - pip:
-    - nbdev
     - imjoy-jupyter-extension
     - ome-zarr
+    - multiscale_spatial_image
+    - itk>=5.3rc4
+    - itkwidgets>=0.32.1
