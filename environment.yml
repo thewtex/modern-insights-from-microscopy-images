@@ -12,16 +12,21 @@ dependencies:
   - dask[complete]
   - dask-image
   - ipykernel
+  - matplotlib
   - distributed
+  - google-colab
   - pandas
   - scipy
   - requests
   - toolz
+  - tornado>=6.1
   - zarr
   - xarray
   - fsspec>=0.8.4
   - ipympl
   - ipywidgets>=7.5.1
+  - ipython>=8.3.0
+  - ipycanvas
   - coiled
   - wasmer
   - pip:
