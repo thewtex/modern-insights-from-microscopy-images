@@ -2,7 +2,7 @@
 > An Introduction to Web-based Methodologies
 
 
-[![I2K](https://www.janelia.org/sites/default/files/styles/adaptive/public/You%20%2B%20Janelia/Conferences/social%20card%20I2K.jpg)](https://www.janelia.org/you-janelia/conferences/from-images-to-knowledge-with-imagej-friends)
+[![I2K](https://www.i2kconference.org/assets/images/banner-image.png)](https://www.i2kconference.org/)
 
 Technological evolution poises modern, web-based methods as the future of bioimage
 analysis. Moreover, web-based methods are better suited to solve challenges such as
@@ -16,13 +16,12 @@ and hands-on exercises.
 
 ## Installation
 
-[Install miniconda](https://docs.conda.io/projects/conda/en/latest/user-guide/install/),
-then:
+[Install miniforge](https://github.com/conda-forge/miniforge), then:
 
 ```
-conda env create --file environment.yml --name mi2
+mamba env create --file environment.yml --name mi2
 conda activate mi2
-python -m jupyter notebook
+python3 -m jupyter notebook
 ```
 
 ## Sections
