@@ -36,4 +36,3 @@ python3 -m jupyter notebook
 
 3. [Image Data Storage for the Web](./03_Data_Storage.ipynb)
 4. [Distributed Image Processing in the Cloud](./04_Distributed_Processing.ipynb)
-5. [Open, Re-usable Deep Learning Components on the Web](./05_Reusable_Components.ipynb)
