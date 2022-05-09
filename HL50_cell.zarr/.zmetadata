@@ -1,0 +1,549 @@
+{
+    "metadata": {
+        ".zattrs": {
+            "multiscales": [
+                {
+                    "@type": "ngff:Image",
+                    "axes": [
+                        {
+                            "name": "x",
+                            "type": "space"
+                        },
+                        {
+                            "name": "y",
+                            "type": "space"
+                        },
+                        {
+                            "name": "z",
+                            "type": "space"
+                        }
+                    ],
+                    "datasets": [
+                        {
+                            "coordinateTransformations": [
+                                {
+                                    "scale": [
+                                        1.0000000150184933,
+                                        1.0000000150184933,
+                                        1.0
+                                    ],
+                                    "type": "scale"
+                                },
+                                {
+                                    "translation": [
+                                        0.0,
+                                        0.0,
+                                        0.0
+                                    ],
+                                    "type": "translation"
+                                }
+                            ],
+                            "path": "scale0/HL50_cell"
+                        },
+                        {
+                            "coordinateTransformations": [
+                                {
+                                    "scale": [
+                                        2.0000000300369867,
+                                        2.000000030036987,
+                                        2.0
+                                    ],
+                                    "type": "scale"
+                                },
+                                {
+                                    "translation": [
+                                        1.5000000225277401,
+                                        0.5000000075092467,
+                                        1.5
+                                    ],
+                                    "type": "translation"
+                                }
+                            ],
+                            "path": "scale1/HL50_cell"
+                        },
+                        {
+                            "coordinateTransformations": [
+                                {
+                                    "scale": [
+                                        8.000000120147947,
+                                        8.000000120147947,
+                                        8.0
+                                    ],
+                                    "type": "scale"
+                                },
+                                {
+                                    "translation": [
+                                        6.500000097620207,
+                                        7.5000001126387,
+                                        4.5
+                                    ],
+                                    "type": "translation"
+                                }
+                            ],
+                            "path": "scale2/HL50_cell"
+                        }
+                    ],
+                    "name": "HL50_cell",
+                    "version": "0.4"
+                }
+            ]
+        },
+        ".zgroup": {
+            "zarr_format": 2
+        },
+        "scale0/.zattrs": {
+            "Software": "InsightToolkit",
+            "direction": [
+                [
+                    1.0,
+                    0.0,
+                    0.0
+                ],
+                [
+                    0.0,
+                    1.0,
+                    0.0
+                ],
+                [
+                    0.0,
+                    0.0,
+                    1.0
+                ]
+            ]
+        },
+        "scale0/.zgroup": {
+            "zarr_format": 2
+        },
+        "scale0/HL50_cell/.zarray": {
+            "chunks": [
+                64,
+                64,
+                64
+            ],
+            "compressor": {
+                "blocksize": 0,
+                "clevel": 5,
+                "cname": "lz4",
+                "id": "blosc",
+                "shuffle": 1
+            },
+            "dimension_separator": "/",
+            "dtype": "<u2",
+            "fill_value": null,
+            "filters": null,
+            "order": "C",
+            "shape": [
+                129,
+                212,
+                363
+            ],
+            "zarr_format": 2
+        },
+        "scale0/HL50_cell/.zattrs": {
+            "Software": "InsightToolkit",
+            "_ARRAY_DIMENSIONS": [
+                "z",
+                "y",
+                "x"
+            ],
+            "direction": [
+                [
+                    1.0,
+                    0.0,
+                    0.0
+                ],
+                [
+                    0.0,
+                    1.0,
+                    0.0
+                ],
+                [
+                    0.0,
+                    0.0,
+                    1.0
+                ]
+            ]
+        },
+        "scale0/x/.zarray": {
+            "chunks": [
+                363
+            ],
+            "compressor": {
+                "blocksize": 0,
+                "clevel": 5,
+                "cname": "lz4",
+                "id": "blosc",
+                "shuffle": 1
+            },
+            "dimension_separator": "/",
+            "dtype": "<f8",
+            "fill_value": "NaN",
+            "filters": null,
+            "order": "C",
+            "shape": [
+                363
+            ],
+            "zarr_format": 2
+        },
+        "scale0/x/.zattrs": {
+            "_ARRAY_DIMENSIONS": [
+                "x"
+            ]
+        },
+        "scale0/y/.zarray": {
+            "chunks": [
+                212
+            ],
+            "compressor": {
+                "blocksize": 0,
+                "clevel": 5,
+                "cname": "lz4",
+                "id": "blosc",
+                "shuffle": 1
+            },
+            "dimension_separator": "/",
+            "dtype": "<f8",
+            "fill_value": "NaN",
+            "filters": null,
+            "order": "C",
+            "shape": [
+                212
+            ],
+            "zarr_format": 2
+        },
+        "scale0/y/.zattrs": {
+            "_ARRAY_DIMENSIONS": [
+                "y"
+            ]
+        },
+        "scale0/z/.zarray": {
+            "chunks": [
+                129
+            ],
+            "compressor": {
+                "blocksize": 0,
+                "clevel": 5,
+                "cname": "lz4",
+                "id": "blosc",
+                "shuffle": 1
+            },
+            "dimension_separator": "/",
+            "dtype": "<f8",
+            "fill_value": "NaN",
+            "filters": null,
+            "order": "C",
+            "shape": [
+                129
+            ],
+            "zarr_format": 2
+        },
+        "scale0/z/.zattrs": {
+            "_ARRAY_DIMENSIONS": [
+                "z"
+            ]
+        },
+        "scale1/.zattrs": {
+            "Software": "InsightToolkit",
+            "direction": [
+                [
+                    1.0,
+                    0.0,
+                    0.0
+                ],
+                [
+                    0.0,
+                    1.0,
+                    0.0
+                ],
+                [
+                    0.0,
+                    0.0,
+                    1.0
+                ]
+            ]
+        },
+        "scale1/.zgroup": {
+            "zarr_format": 2
+        },
+        "scale1/HL50_cell/.zarray": {
+            "chunks": [
+                64,
+                64,
+                64
+            ],
+            "compressor": {
+                "blocksize": 0,
+                "clevel": 5,
+                "cname": "lz4",
+                "id": "blosc",
+                "shuffle": 1
+            },
+            "dimension_separator": "/",
+            "dtype": "<u2",
+            "fill_value": null,
+            "filters": null,
+            "order": "C",
+            "shape": [
+                64,
+                106,
+                181
+            ],
+            "zarr_format": 2
+        },
+        "scale1/HL50_cell/.zattrs": {
+            "Software": "InsightToolkit",
+            "_ARRAY_DIMENSIONS": [
+                "z",
+                "y",
+                "x"
+            ],
+            "direction": [
+                [
+                    1.0,
+                    0.0,
+                    0.0
+                ],
+                [
+                    0.0,
+                    1.0,
+                    0.0
+                ],
+                [
+                    0.0,
+                    0.0,
+                    1.0
+                ]
+            ]
+        },
+        "scale1/x/.zarray": {
+            "chunks": [
+                181
+            ],
+            "compressor": {
+                "blocksize": 0,
+                "clevel": 5,
+                "cname": "lz4",
+                "id": "blosc",
+                "shuffle": 1
+            },
+            "dimension_separator": "/",
+            "dtype": "<f8",
+            "fill_value": "NaN",
+            "filters": null,
+            "order": "C",
+            "shape": [
+                181
+            ],
+            "zarr_format": 2
+        },
+        "scale1/x/.zattrs": {
+            "_ARRAY_DIMENSIONS": [
+                "x"
+            ]
+        },
+        "scale1/y/.zarray": {
+            "chunks": [
+                106
+            ],
+            "compressor": {
+                "blocksize": 0,
+                "clevel": 5,
+                "cname": "lz4",
+                "id": "blosc",
+                "shuffle": 1
+            },
+            "dimension_separator": "/",
+            "dtype": "<f8",
+            "fill_value": "NaN",
+            "filters": null,
+            "order": "C",
+            "shape": [
+                106
+            ],
+            "zarr_format": 2
+        },
+        "scale1/y/.zattrs": {
+            "_ARRAY_DIMENSIONS": [
+                "y"
+            ]
+        },
+        "scale1/z/.zarray": {
+            "chunks": [
+                64
+            ],
+            "compressor": {
+                "blocksize": 0,
+                "clevel": 5,
+                "cname": "lz4",
+                "id": "blosc",
+                "shuffle": 1
+            },
+            "dimension_separator": "/",
+            "dtype": "<f8",
+            "fill_value": "NaN",
+            "filters": null,
+            "order": "C",
+            "shape": [
+                64
+            ],
+            "zarr_format": 2
+        },
+        "scale1/z/.zattrs": {
+            "_ARRAY_DIMENSIONS": [
+                "z"
+            ]
+        },
+        "scale2/.zattrs": {
+            "Software": "InsightToolkit",
+            "direction": [
+                [
+                    1.0,
+                    0.0,
+                    0.0
+                ],
+                [
+                    0.0,
+                    1.0,
+                    0.0
+                ],
+                [
+                    0.0,
+                    0.0,
+                    1.0
+                ]
+            ]
+        },
+        "scale2/.zgroup": {
+            "zarr_format": 2
+        },
+        "scale2/HL50_cell/.zarray": {
+            "chunks": [
+                16,
+                26,
+                45
+            ],
+            "compressor": {
+                "blocksize": 0,
+                "clevel": 5,
+                "cname": "lz4",
+                "id": "blosc",
+                "shuffle": 1
+            },
+            "dimension_separator": "/",
+            "dtype": "<u2",
+            "fill_value": null,
+            "filters": null,
+            "order": "C",
+            "shape": [
+                16,
+                26,
+                45
+            ],
+            "zarr_format": 2
+        },
+        "scale2/HL50_cell/.zattrs": {
+            "Software": "InsightToolkit",
+            "_ARRAY_DIMENSIONS": [
+                "z",
+                "y",
+                "x"
+            ],
+            "direction": [
+                [
+                    1.0,
+                    0.0,
+                    0.0
+                ],
+                [
+                    0.0,
+                    1.0,
+                    0.0
+                ],
+                [
+                    0.0,
+                    0.0,
+                    1.0
+                ]
+            ]
+        },
+        "scale2/x/.zarray": {
+            "chunks": [
+                45
+            ],
+            "compressor": {
+                "blocksize": 0,
+                "clevel": 5,
+                "cname": "lz4",
+                "id": "blosc",
+                "shuffle": 1
+            },
+            "dimension_separator": "/",
+            "dtype": "<f8",
+            "fill_value": "NaN",
+            "filters": null,
+            "order": "C",
+            "shape": [
+                45
+            ],
+            "zarr_format": 2
+        },
+        "scale2/x/.zattrs": {
+            "_ARRAY_DIMENSIONS": [
+                "x"
+            ]
+        },
+        "scale2/y/.zarray": {
+            "chunks": [
+                26
+            ],
+            "compressor": {
+                "blocksize": 0,
+                "clevel": 5,
+                "cname": "lz4",
+                "id": "blosc",
+                "shuffle": 1
+            },
+            "dimension_separator": "/",
+            "dtype": "<f8",
+            "fill_value": "NaN",
+            "filters": null,
+            "order": "C",
+            "shape": [
+                26
+            ],
+            "zarr_format": 2
+        },
+        "scale2/y/.zattrs": {
+            "_ARRAY_DIMENSIONS": [
+                "y"
+            ]
+        },
+        "scale2/z/.zarray": {
+            "chunks": [
+                16
+            ],
+            "compressor": {
+                "blocksize": 0,
+                "clevel": 5,
+                "cname": "lz4",
+                "id": "blosc",
+                "shuffle": 1
+            },
+            "dimension_separator": "/",
+            "dtype": "<f8",
+            "fill_value": "NaN",
+            "filters": null,
+            "order": "C",
+            "shape": [
+                16
+            ],
+            "zarr_format": 2
+        },
+        "scale2/z/.zattrs": {
+            "_ARRAY_DIMENSIONS": [
+                "z"
+            ]
+        }
+    },
+    "zarr_consolidated_format": 1
+}

@@ -1,0 +1,88 @@
+{
+    "multiscales": [
+        {
+            "@type": "ngff:Image",
+            "axes": [
+                {
+                    "name": "x",
+                    "type": "space"
+                },
+                {
+                    "name": "y",
+                    "type": "space"
+                },
+                {
+                    "name": "z",
+                    "type": "space"
+                }
+            ],
+            "datasets": [
+                {
+                    "coordinateTransformations": [
+                        {
+                            "scale": [
+                                1.0000000150184933,
+                                1.0000000150184933,
+                                1.0
+                            ],
+                            "type": "scale"
+                        },
+                        {
+                            "translation": [
+                                0.0,
+                                0.0,
+                                0.0
+                            ],
+                            "type": "translation"
+                        }
+                    ],
+                    "path": "scale0/HL50_cell"
+                },
+                {
+                    "coordinateTransformations": [
+                        {
+                            "scale": [
+                                2.0000000300369867,
+                                2.000000030036987,
+                                2.0
+                            ],
+                            "type": "scale"
+                        },
+                        {
+                            "translation": [
+                                1.5000000225277401,
+                                0.5000000075092467,
+                                1.5
+                            ],
+                            "type": "translation"
+                        }
+                    ],
+                    "path": "scale1/HL50_cell"
+                },
+                {
+                    "coordinateTransformations": [
+                        {
+                            "scale": [
+                                8.000000120147947,
+                                8.000000120147947,
+                                8.0
+                            ],
+                            "type": "scale"
+                        },
+                        {
+                            "translation": [
+                                6.500000097620207,
+                                7.5000001126387,
+                                4.5
+                            ],
+                            "type": "translation"
+                        }
+                    ],
+                    "path": "scale2/HL50_cell"
+                }
+            ],
+            "name": "HL50_cell",
+            "version": "0.4"
+        }
+    ]
+}
