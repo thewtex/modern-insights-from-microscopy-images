@@ -35,3 +35,4 @@ dependencies:
     - multiscale_spatial_image
     - itk>=5.3rc4
     - itkwidgets>=0.32.1
+    - tifffile
