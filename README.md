@@ -19,9 +19,11 @@ and hands-on exercises.
 [Install mambaforge](https://github.com/conda-forge/miniforge), then:
 
 ```
-mamba env create --file environment.yml --name mi2
-conda activate mi2
-python3 -m jupyter notebook
+git clone https://github.com/thewtex/modern-insights-from-microscopy-images
+cd modern-insights-from-microscopy-images
+mamba env create --file environment.yml --name i2k-web-2022
+conda activate i2k-web-2022
+python -m jupyter notebook
 ```
 
 ## Sections

@@ -4,6 +4,6 @@ import coiled
 import argparse
 
 coiled.create_software_environment(
-    name="i2k-2022-mi2",
+    name="i2k-web-2022",
     conda="environment.yml",
 )
