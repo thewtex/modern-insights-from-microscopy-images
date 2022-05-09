@@ -27,8 +27,10 @@ python3 -m jupyter notebook
 ## Sections
 
 1. [Introduction to Modern, Web-based Methodologies](./01_Introduction.ipynb)
-2. [Student Introductions](./02_Students.ipynb)
-3. [Web-based Image Visualization](./03_Visualization.ipynb)
+
+<a href="https://colab.research.google.com/github/thewtex/modern-insights-from-microscopy-images/blob/master/01_Introduction.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
+
+2. [Web-based Image Visualization](./02_Visualization.ipynb)
 4. [Image Data Storage for the Web](./04_Data_Storage.ipynb)
 5. [Distributed Image Processing in the Cloud](./05_Distributed_Processing.ipynb)
 6. [Open, Re-usable Deep Learning Components on the Web](./06_Reusable_Components.ipynb)
