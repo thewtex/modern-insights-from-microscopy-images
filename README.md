@@ -16,7 +16,7 @@ and hands-on exercises.
 
 ## Installation
 
-[Install miniforge](https://github.com/conda-forge/miniforge), then:
+[Install mambaforge](https://github.com/conda-forge/miniforge), then:
 
 ```
 mamba env create --file environment.yml --name mi2
