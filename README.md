@@ -36,5 +36,8 @@ python -m jupyter notebook
 
 <a href="https://colab.research.google.com/github/thewtex/modern-insights-from-microscopy-images/blob/master/02_Visualization.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
 
+
+3. [Introduction to WebAssembly](./03_WebAssembly_Introduction.ipynb)
+
 3. [Image Data Storage for the Web](./03_Data_Storage.ipynb)
 4. [Distributed Image Processing in the Cloud](./04_Distributed_Processing.ipynb)
